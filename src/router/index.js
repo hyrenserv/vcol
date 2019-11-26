@@ -640,7 +640,12 @@ export default new Router({
           name: 'formDemo',
           path: '/formDemo',
           component: () => import("@/view/Form/formDemo.vue")
-        }
+        },
+        {
+            name: 'commCss',
+            path: '/commCss',
+            component: () => import("@/view/commonCss/commCss.vue")
+          }
       ]
     }
   ]

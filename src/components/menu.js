@@ -4,6 +4,7 @@
  * 
  */
 const Menu = [
+    { icon: 'el-icon-setting', title: '公共样式class名', path: '/commCss' },
     {
         icon: 'el-icon-setting22', title: 'Form 表单', path: '/10', children: [
             // { icon: 'el-icon-setting2', title: '表单验证', path: '/Form1' },
