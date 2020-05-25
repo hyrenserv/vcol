@@ -1,4 +1,4 @@
-# hrsv5-web
+# vcol
 
 ### 1、api写法
 - 前端包名定义，hrds/项目（a、b等）/功能模块（syspara）
