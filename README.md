@@ -1,4 +1,4 @@
-# vcol-master
+# vcol-masteraa
 
 ### 1、api写法
 - 前端包名定义，hrds/项目（a、b等）/功能模块（syspara）
@@ -16,7 +16,7 @@
   - 如果你重写了错误消息,会导致后台返回的具体错误信息看不到
 
 ### 5、对于删除,更新,删除确认,保存成功的操作请使用 utils/js/message.js,里面封装的方法
-  * 后续使用方式 : 
+  * 后续使用方式 :
     * 删除成功 : `this.$Msg.deleteSuccess(res);`
     * 更新成功 : `this.$Msg.updateSuccess(res);`
     * 保存成功 : `this.$Msg.saveSuccess(res);`
@@ -65,7 +65,7 @@
 - 删除 确定 取消 可以通过设置button的type属性实现
  ```css
 .elButton{
- 
+
 }
 ```
 ### 2、table
@@ -78,7 +78,7 @@
 - 斑马纹样式，需要在table里面写stripe属性然后在这里实现样式的更改
  ```css
 .el-table--striped .el-table__body tr.el-table__row--striped td{
-  
+
 }
 ```
 - 表格td样式，不需要添加属性即可更改
@@ -96,7 +96,7 @@
 - 默认表格鼠标划入时的颜色，不需要添加属性即可更改
  ```css
 .el-table__body tr.hover-row.current-row>td,.el-table__body tr.hover-row.el-table__row--striped.current-row>td,.el-table__body tr.hover-row.el-table__row--striped>td,.el-table__body tr.hover-row>td{
-    
+
 }
 ```
 ### 3、radio
@@ -115,28 +115,28 @@
 - 单选框选中样式设置，不需要添加属性，可以直接更改
  ```css
 .el-radio__input.is-checked .el-radio__inner{
-   
+
 }
 ```
 - 单选框选中字体样式设置，不需要添加属性，可以直接更改
  ```css
 .el-radio__input.is-checked+.el-radio__label {
-    
+
 }
 ```
 
 - 如果需要只设置单独的某一个radio，需要在el-radio添加id="manuallyChange"实现
-- 单选框样式设置 
+- 单选框样式设置
  ```css
 #manuallyChange .el-radio__inner{
- 
+
 }
 ```
 
 - 单选框字体样式设置
  ```css
 #manuallyChange .el-radio__label{
-    
+
 }
 ```
 
@@ -164,7 +164,7 @@
 }
 .btn-cancel:hover{
     background-color: #F56C6C;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     border: 1px solid #F56C6C;
 }
 ```
@@ -205,12 +205,12 @@
  ```css
 .el-checkbox__input.is-checked .el-checkbox__inner{
 
-} 
+}
 ```
 - 复选框字体默认选中样式设置，不需要添加属性，可以直接更改
  ```css
 .el-checkbox__input.is-checked+.el-checkbox__label {
-    
+
 }
 ```
 - 如果需要只设置单独的某一个复选框，需要在el-checkbox添加id="manuallyChangeck"实现
@@ -229,13 +229,13 @@
 - 复选框选中样式设置
  ```css
 #manuallyChangeck .el-checkbox__input.is-checked .el-checkbox__inner{
-  
+
 }
 ```
 - 复选框选中字体设置
  ```css
 #manuallyChangeck .el-checkbox__input.is-checked+.el-checkbox__label {
-  
+
 }
 ```
 ### 7、tab选项卡
